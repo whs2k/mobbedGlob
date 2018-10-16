@@ -1,34 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>MobbedGlob</title>
-
-  <link rel="stylesheet" href="./styles.css">  
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MobbedGlob</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Bulma Version 0.7.1-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-<article class="baskerville pb5">
-  <header class="avenir tc-l ph3 ph4-ns pt4 pt5-ns">
-    <h1>Welcome to MobbedGlob</h1>
-    <h2> This project is 3 Phased  MVP effort to build a ‘data union’ </h2>
-
-    <br>
-    <br>
-    <h3> THE WHY </h3>
-    <a>Your clicks generate lots of money for the Facebook’s and Google’s of the world and in turn they provide us with a services to connect and inform us. But you’re creating the data; shouldn’t you be able to monitize it too? </a>
-    <a>Much like the unionization of labor in the US in the late 1800s, one person on their own does not have much power. However, when combined with many, the power of a strike or values of the data becomes significant. </a>
-    <br>
-    <br>
-    <h3> THE PLAN </h3>
-    <a>Phase 1: Create a chrome extension that allows users to save a csv/json of their browsing histroy DOWNLOAD THE EXTENSION HERE!</a>
-    <a>Phase 2: Allow users to upload and merge their anonmyzied jsons/csvs together  (TBD) </a>
-    <a>Phase 3: Allow participants to suggest and vote on how the data will be used (TBD) </a>
-
-  </header>
-</article>
+    <!-- START NAV -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="../">
+                  <i class="fa fa-connectdevelop fa-2x"></i>&emsp;MobbedGlob
+                </a>
+                <span class="navbar-burger burger" data-target="navbarMenu">
+                        <span></span>
+                <span></span>
+                <span></span>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAV -->
+    <section class="hero is-info is-medium is-bold">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">Welcome to MobbedGlob!</h1>
+                <p>This project is 3 Phased MVP effort to build a ‘data union’</p>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <!-- START ARTICLE FEED -->
+        <section class="articles">
+            <div class="column is-8 is-offset-2">
+                <!-- START ARTICLE -->
+                <div class="card article">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content has-text-centered">
+                                <p class="title article-title">THE WHY</p>
+                            </div>
+                        </div>
+                        <div class="content article-body">
+                            <p>Your clicks generate lots of money for the Facebook’s and Google’s of the world and in turn they provide us with a services to connect and inform us. But you’re creating the data; shouldn’t you be able to monitize it too? </p>
+                            <p>Much like the unionization of labor in the US in the late 1800s, one person on their own does not have much power. However, when combined with many, the power of a strike or values of the data becomes significant. </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END ARTICLE -->
+                <!-- START ARTICLE -->
+                <div class="card article">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content has-text-centered">
+                                <p class="title article-title">THE PLAN</p>
+                            </div>
+                        </div>
+                        <div class="content article-body">
+                            <p>Phase 1: Create a chrome extension that allows users to save a csv/json of their browsing histroy DOWNLOAD THE EXTENSION HERE!</p>
+                            <p>Phase 2: Allow users to upload and merge their anonmyzied jsons/csvs together (TBD) </p>
+                            <p>Phase 3: Allow participants to suggest and vote on how the data will be used (TBD) </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END ARTICLE -->
+        </section>
+        <!-- END ARTICLE FEED -->
+    </div>
 </body>
+
 </html>
